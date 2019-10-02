@@ -116,7 +116,7 @@ body {
     transition: all 0.5s;
     width: 50%;
     height: 100%;
-    background-image: url('..//img/jungle.jpg');
+    background-image: url('..//img/whiteImg.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -217,6 +217,19 @@ body {
     background-color: black;
     width: 100%;
     height: 500px;
+}
+
+.FooterLogoText {
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.FooterA {
+    color: white;
+    text-align: center;
 }
 
 /* hamburger menu */
