@@ -54,6 +54,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 46px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .Work {
@@ -61,6 +63,10 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
+    background-image: url('../img/BG2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .Box1 {
@@ -77,19 +83,22 @@ body {
     transition: all 0.5s;
     width: 50%;
     height: 100%;
-    background-image: url('..//img/SunJump.jpg');
+    background-image: url('..//img/SunJump.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
 }
 
 .Box1Text {
-    color: black;
+    color: white;
     position: relative;
     top: 50%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    z-index: 1;
 }
 
 .Box2 {
@@ -100,6 +109,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
 }
 
 .Box2Active {
@@ -110,14 +120,25 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
 }
 
 .Box2Text {
-    color: black;
+    color: white;
     position: relative;
     top: 50%;
     right: 0%;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    z-index: 1;
+}
+
+.video1 {
+    position: absolute;
+    left: 0px;
+    min-width: 100%;
+    min-height: 102%;
+    z-index: 0;
 }
 
 .About {
@@ -146,6 +167,7 @@ body {
     color: white;
     margin: 0px;
     font-size: 60px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .aboutText {
@@ -156,6 +178,7 @@ body {
     text-align: center;
     font-size: 36px;
     color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 .logoHolder {
